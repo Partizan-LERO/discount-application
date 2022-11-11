@@ -2,7 +2,7 @@
 
 namespace Corazon\DiscountApp\Discount;
 
-abstract class Discount
+abstract class Discount implements DiscountInterface
 {
     protected ?DiscountInterface $successor;
 

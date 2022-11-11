@@ -2,6 +2,8 @@
 
 namespace Corazon\DiscountApp\Discount;
 
+use Corazon\DiscountApp\Product;
+
 class DiscountACE extends Discount implements DiscountInterface
 {
     private const DISCOUNT = 0.15;
