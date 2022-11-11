@@ -1,0 +1,16 @@
+{
+    "name": "corazon/discount",
+    "autoload": {
+        "psr-4": {
+            "Corazon\\DiscountApp\\": "app/",
+            "Corazon\\DiscountApp\\Discount\\": "app/DIscount/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Сергей Самойленко",
+            "email": "corazonsergey@gmail.com"
+        }
+    ],
+    "require": {}
+}
